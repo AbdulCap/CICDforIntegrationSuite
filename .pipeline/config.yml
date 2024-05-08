@@ -1,0 +1,14 @@
+---
+general:
+  cpiApiServiceKeyCredentialsId: "apikey"
+  integrationFlowId: "BasiciFlow"
+stages:
+  uploadStage:
+    enabled: true
+  deployStage:
+    enabled: true
+  integrationTestStage:
+    enabled: false
+steps:
+  integrationArtifactUpload:
+    integrationFlowName: "BasiciFlow"
